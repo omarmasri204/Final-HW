@@ -1,0 +1,256 @@
+@import url('/proxima-nova-font.css');
+* {
+    margin: 0 0;
+}
+.container * {
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.icons {
+    margin-left: 5px;
+}
+
+#Demo-btn {
+    height: 30px;
+    border: none !important;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1) !important;
+    background-color: #FEBE3C !important;
+    color: white;
+    padding: 1px 12px;
+}
+
+#Login-btn {
+    color: #00BC8F;
+}
+
+#top-hero {
+    background-color: #F7F7F7;
+    font-family: 'Proxima Nova', sans-serif;
+    overflow: visible;
+}
+
+#top-hero *{
+    font-family: 'Proxima Nova', sans-serif;
+}
+
+#TR-hero {
+    width: 650px;
+    margin: auto 0;
+}
+
+#TR-hero button {
+    padding: 18px 27px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#hero-title {
+    color: #282B30;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 0.95em;
+    font-family: 'Proxima Nova', sans-serif;
+}
+
+#hero-sub {
+    line-height: 1.5em;
+}
+
+.icon_picklecheck {
+    max-width: 1.75em;
+    max-height: 1.75em;
+}
+
+#sliding-background {
+    overflow: visible;
+    background: url('/Images/bgShape.png') repeat-y;
+	background-size: 65%;
+    height: 95vh;
+	animation: scroll-anim 10s linear infinite;
+}
+@keyframes scroll-anim {
+    50% {
+        background-position: 0 100%;
+    }
+	100% {
+		background-position: 0 0 ;
+	}
+}
+
+#person-hero {
+    position: relative;
+}
+
+#person-hero-img {
+    scale: 70%;
+    position: absolute;
+    bottom: -165px;
+    right: -10px;
+}
+
+#canva-hero {
+    height: 250px!important;
+    background-color: #282B30;
+    overflow: hidden;
+}
+
+#canva-hero * {
+    font-weight: bold;
+    font-family: 'Proxima Nova', sans-serif;
+}
+
+#canva-hero .hero-body {
+    padding: 16px 24px;
+}
+
+#CL-hero .title{
+    color: white!important;
+}
+
+#CL-hero .buttons *{
+    font-size: 18px;
+}
+
+#CL-hero .is-4 {
+    margin-top: 18px;
+    margin-bottom: 8px;
+    font-weight: 400;
+}
+
+#CL-hero .buttons .is-danger {
+    padding: 25px 18px;
+} 
+
+#CL-hero .buttons .is-inverted {
+    border: none;
+    color: #f14668;
+    background-color: inherit;
+}
+
+#CR-hero img {
+    max-height: 360px;
+    position: relative;
+    top: -70px;
+}
+
+#marketing-hero * {
+   font-family: 'Proxima Nova', sans-serif; 
+}
+
+#marketing-hero .hero-body {
+    padding: 125px 16px !important;
+}
+
+#marketing-hero .subtitle {
+    margin: 24px 0;
+    font-size: 24px;
+    width: 530px!important;
+}
+
+#marketing-hero .title {
+    font-size: 42px;
+    font-weight: bold;
+    width: 530px!important; 
+}
+
+#marketing-btn {
+    border: none;
+    color: #00BC8F;
+    padding-left: 0;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.adam-box {
+    height: 100px;
+    width: 700px;
+    background-color: #F4F4F4;
+    border-radius: 100px 0px 0px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center
+}
+
+figure .is-rounded {
+    margin-left: 10px;
+}
+
+#adam-txt {
+    font-size: 32px!important;
+    line-height: 0.9;
+}
+
+#madak-url {
+    font-size: 22px!important;
+    color: #00BC8F;
+}
+
+.adam-works {
+    width: 550px;
+    height: 400px;
+    padding: 30px;
+    background-color: #171717;
+    border-radius: 25px 25px 25px 25px;
+}
+
+#adam-btn {
+    border: none;
+    padding-left: 0;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 30px 24px;
+    color: white;
+    background-color: #00BC8F;
+}
+
+#features-hero {
+    background-color: #F4F4F4;
+    background-image: url(/Images/works_optimized.jpg);
+    background-position: 100% -50px !important;
+    background-size: clamp(0px, 45vw, 850px) auto !important;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+#features-hero * {
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    font-family: 'Proxima Nova', sans-serif;
+}
+
+.features-boxes {
+    width: 320px;
+    height: 280px;
+    background-color: white;
+}
+
+.features-hero-boxes {
+    width: 100vw;
+}
+
+#features-sub, #features-sub * {
+    width: 675px;
+    margin-left: 0!important;
+    background: linear-gradient( 150deg, #16dfa6, #458473);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 33px;
+    line-height: 1.3em;
+}
+
+#features-title {
+    font-size: 60px!important;
+    font-weight: 700;
+    width: 675px;
+    margin-left: 0!important;
+}
+
+#features-sub strong {
+    font-weight: 800;
+}
+
